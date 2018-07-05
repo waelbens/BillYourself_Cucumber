@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login, validate fields and dowloand the bill",
+        "description": "",
+        "id": "login-to-billyourself-website,-set-data-and-download-the-bill;login,-validate-fields-and-dowloand-the-bill",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6813456152,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to be on BillYourself signin page",
+            "match": {
+              "location": "FirstFeatureStepTest.User_need_to_be_on_BillYourself_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244032051,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email",
+            "match": {
+              "location": "FirstFeatureStepTest.User_enters_Email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79751129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password",
+            "match": {
+              "location": "FirstFeatureStepTest.User_enters_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22509108,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User checks user Email is present",
+            "match": {
+              "location": "FirstFeatureStepTest.User_checks_user_Email_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15891247,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User checks user Password is present",
+            "match": {
+              "location": "FirstFeatureStepTest.User_checks_user_Password_is_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1235046380,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User login",
+            "match": {
+              "location": "FirstFeatureStepTest.User_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71148325,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Days",
+            "match": {
+              "location": "FirstFeatureStepTest.User_enters_Days()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82838608,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters Daily Income",
+            "match": {
+              "location": "FirstFeatureStepTest.User_enters_Daily_Income()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26787478,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User checks user Days field is present",
+            "match": {
+              "location": "FirstFeatureStepTest.User_checks_user_Days_field_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18719328,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User checks user Daily Income field is present",
+            "match": {
+              "location": "FirstFeatureStepTest.User_checks_user_Daily_Income_field_is_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3056195744,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User submit",
+            "match": {
+              "location": "FirstFeatureStepTest.User_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1170409815,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Download the bill",
+            "match": {
+              "location": "FirstFeatureStepTest.Download_the_bill()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login to BillYourself website, set data and download the bill",
+    "description": "As a user you need to open BillYourself signin page, login and do the validations",
+    "id": "login-to-billyourself-website,-set-data-and-download-the-bill",
+    "keyword": "Feature",
+    "uri": "com/basic/FirstFeatureFile/MyFirstFeature.feature"
+  }
+]
